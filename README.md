@@ -1,3 +1,13 @@
+### npx create-react-app .
+
+### npm install react-router-dom
+
+### npm install -g json-server
+
+### json-server --watch ./src/db/data.json --port 3001
+
+#### https://www.npmjs.com/package/json-server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
