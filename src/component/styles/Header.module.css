@@ -1,0 +1,29 @@
+.header {
+	font-size: 2rem;
+	padding: 20px;
+	color:#8f8f8f;
+}
+
+.header__wrapper {
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 3px #000;
+}
+
+.btn__wrapper > a {
+	padding: 10px;
+	border: 1px solid #8f8f8f;
+	margin: 10px;
+	color:#0f0f0f;
+	border-radius: 10px;
+	transition-duration: 0.05s;
+	box-shadow: 1px 1px 1px black;
+}
+
+.btn__wrapper > a:active {
+	box-shadow: none;
+	margin-top:3px;
+	margin-left: 3px;
+}

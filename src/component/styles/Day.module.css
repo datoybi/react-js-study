@@ -1,0 +1,48 @@
+.wrapper {
+	padding-top: 15px;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 3px #000;
+}
+
+.title {
+	width: 50%;
+	font-size: 1.5rem;
+}
+
+.title__wrapper {
+	display: flex;
+}
+
+.table__wrapper {
+	padding-top: 2%;
+	display: flex;
+	justify-content: center;
+}
+
+.table {
+	table-layout: fixed;
+}
+
+.table__wrapper table {
+	width: 70vw;
+	min-width: 70vw;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+.table__wrapper table tr, td {
+	border-bottom: 1px solid #444444;
+	padding: 10px;
+}
+
+.table__wrapper a {
+	padding: 0.3rem;
+	font-size: 0.8rem;
+	border: 1px solid #aeaeae;
+	border-radius: 10px;
+	color:#0f0f0f;
+	margin: 10px;
+	box-sizing: border-box;
+}

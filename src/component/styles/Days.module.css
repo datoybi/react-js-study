@@ -1,0 +1,26 @@
+
+.wrapper {
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 3px #000;
+}
+
+.btn {
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	border: 1px solid #aeaeae;
+	border-radius: 10px;
+	color:#0f0f0f;
+	margin: 10px;
+	box-sizing: border-box;
+	transition-duration: 0.1s;
+	box-shadow: 2px 2px 2px black;
+}
+
+.btn:active {
+	box-shadow: none;
+	margin-top:5px;
+	margin-left: 5px;
+}

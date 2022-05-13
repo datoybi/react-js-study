@@ -1,0 +1,37 @@
+
+.table__wrapper {
+	padding-top: 2%;
+	display: flex;
+	justify-content: center;
+}
+
+.table__wrapper table {
+	width: 50%;
+	border-top: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+.table__wrapper table tr, td {
+	border-bottom: 1px solid #444444;
+	padding: 10px;
+}
+
+.table__wrapper a {
+	padding: 0.3rem;
+	font-size: 0.8rem;
+	border: 1px solid #aeaeae;
+	border-radius: 10px;
+	color:#0f0f0f;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.deL_btn{
+	color: tomato !important;
+	transition-duration: 0.1s;
+	box-shadow: 1px 1px 1px black;
+}
+
+.off {
+	opacity: 0.5;
+}
