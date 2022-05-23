@@ -6,13 +6,13 @@ import Category from "./component/Category";
 
 function App() {
   return (
-    <div id="app" class="px-4">
-      <div class="d-flex justify-center mt-5 w-100">
-        <div class="w-100">
+    <div id="app" className="px-4">
+      <div className="d-flex justify-center mt-5 w-100">
+        <div className="w-100">
           <BrowserRouter>
             <Header />
             <Routes>
-              <Route path="/" element={<Category />} />
+              <Route path="/category/:categoryId" element={<Category />} />
             </Routes>
           </BrowserRouter>
         </div>

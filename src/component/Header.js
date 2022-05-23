@@ -5,15 +5,12 @@
 	찾기 힘들다고 한다. 더 알아봐야겠다.
 */
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-  const [categories, setCategories] = useState([
-    { id: "espresso", name: "☕ 에스프레소" },
-  ]);
-  const [currentCategory, setCurrentCategory] = useState("espresso");
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    // 처음 카테고리 메뉴들 가져오기 이거 계속 지속되나? 봐야지
     fetch(`http://localhost:3001/category`)
       .then((response) => response.json())
       .then((data) => setCategories(data));
@@ -26,12 +23,14 @@ export default function Header() {
       </a>
       <nav className="d-flex justify-center flex-wrap">
         {categories.map((category) => (
-          <button
-            data-category-name={category.id}
-            className="cafe-category-name btn bg-white shadow mx-1"
-          >
-            {category.name}
-          </button>
+          <Link to={`/category/${category.id}`} key={category.name}>
+            <button
+              key={category.id}
+              className="cafe-category-name btn bg-white shadow mx-1"
+            >
+              {category.name}
+            </button>
+          </Link>
         ))}
       </nav>
     </header>

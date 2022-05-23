@@ -1,8 +1,4 @@
-import { useParams } from "react-router-dom";
-
-export default function Category() {
-  const { categoryId } = useParams();
-  console.log(categoryId);
+export default function Menu() {
   return (
     <main className="mt-10 d-flex justify-center">
       <div className="wrapper bg-white p-10">
