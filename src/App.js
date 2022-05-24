@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Header from "./component/Header";
 import Category from "./component/Category";
 
@@ -12,6 +12,10 @@ function App() {
           <BrowserRouter>
             <Header />
             <Routes>
+              <Route
+                path="/"
+                element={<Navigate replace to="/category/espresso" />}
+              />
               <Route path="/category/:categoryId" element={<Category />} />
             </Routes>
           </BrowserRouter>

@@ -1,12 +1,47 @@
 {
-	"category": [
-		{"id": "espresso", "name":"☕ 에스프레소"},
-		{"id": "frappuccino", "name":"🥤 프라푸치노"},
-		{"id": "blended", "name":"🍹 블렌디드"},
-		{"id": "tibana", "name":" 🍸 티바나"},
-		{"id": "dessert", "name":"🍰 디저트"}
-	] 
-
-	
-
+  "category": [
+    {
+      "id": "espresso",
+      "name": "☕ 에스프레소"
+    },
+    {
+      "id": "frappuccino",
+      "name": "🥤 프라푸치노"
+    },
+    {
+      "id": "blended",
+      "name": "🍹 블렌디드"
+    },
+    {
+      "id": "tibana",
+      "name": "🍸 티바나"
+    },
+    {
+      "id": "dessert",
+      "name": "🍰 디저트"
+    }
+  ],
+  "espresso": [
+    {
+      "id": "americano",
+      "name": "아메리카노"
+    },
+    {
+      "id": "latte",
+      "name": "카페라떼"
+    },
+    {
+      "id": 1234,
+      "name": "카푸치노"
+    }
+  ],
+  "frappuccino": [],
+  "blended": [],
+  "tibana": [
+    {
+      "id": "6yl9tveno1b",
+      "name": "블랙티"
+    }
+  ],
+  "dessert": []
 }
